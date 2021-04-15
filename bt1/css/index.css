@@ -1,0 +1,116 @@
+.facebook {
+    height: 450px;
+    width: 100%;
+}
+
+img.image_background {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    z-index: 10;
+}
+
+.possition_relation {
+    height: 100%;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+.possition_relation {
+    height: 100%;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+.out_avatar {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 11;
+    bottom: 0;
+    border: 3px solid white;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-100px);
+}
+
+.camera_edit .fa-camera {
+    font-size: 19px;
+    color: black;
+}
+
+.camera {
+    position: absolute;
+    right: -7px;
+    bottom: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: #E4E6EB;
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-radius: 50%;
+}
+
+.camera_edit {
+    position: absolute;
+    z-index: 12;
+    background: white;
+    display: flex;
+    bottom: 16%;
+    right: 25px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.edit {
+    padding: 0px 10px;
+    /* display: flex; */
+    font-family: 'Segoe UI';
+    font-size: 13px;
+}
+
+.name {
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 31px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+}
+
+.history {
+    width: 100%;
+    height: 50px;
+    /* margin-top: 4px; */
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    color: #1876F2;
+}
+
+@media (min-width: 480px) and (max-width: 1199px) {
+    .facebook .possition_relation {
+        width: 100% !important;
+        left: 0px;
+    }
+}
